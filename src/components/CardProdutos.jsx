@@ -8,8 +8,8 @@ const CardProdutos = (props) => {
     <div className="componentes">
       <div className="componente">
         <img className="imagens" src={props.imagens} alt={props.alt} />
-        <p className="titulo">{props.produto}</p>
-        <p className="subtitulo">{props.molho}</p>
+        <p className="titulo">{props.Titulo}</p>
+        <p className="subtitulo">{props.subTitulo}</p>
         <p className="valor">
           {props.valor}
           <PlusSquareOutlined style={{ color: "blue", float: "right" }} />
